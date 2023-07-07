@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.AddMedicineActivity">
+
+    <EditText
+        android:id="@+id/enterMedicine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border1"
+        android:drawableRight="@drawable/baseline_medical_services_24"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/graduate"
+        android:hint="Medicine"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/enterCompany2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border1"
+        android:drawableRight="@drawable/baseline_medical_services_24"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/graduate"
+        android:hint="Manufacturer"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/enterManufactureDate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border1"
+        android:drawableRight="@drawable/baseline_calendar_month_24"
+        android:fontFamily="@font/graduate"
+        android:hint="Manufacture Date"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/enterExpireDate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border1"
+        android:drawableRight="@drawable/baseline_calendar_month_24"
+        android:fontFamily="@font/graduate"
+        android:hint="Expire Date"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/enterQuantity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border1"
+        android:drawableRight="@drawable/baseline_question_mark_24"
+        android:fontFamily="@font/graduate"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/enterPrice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border1"
+        android:drawableRight="@drawable/baseline_currency_rupee_24"
+        android:fontFamily="@font/graduate"
+        android:hint="Price for one"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnSave2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_700"
+        android:text=" Add Medicine "
+        android:textColor="@color/white"
+        android:fontFamily="@font/graduate"/>
+</LinearLayout>

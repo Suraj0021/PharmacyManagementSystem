@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "122405064245",
+    "firebase_url": "https://pharmacy-777b8-default-rtdb.firebaseio.com",
+    "project_id": "pharmacy-777b8",
+    "storage_bucket": "pharmacy-777b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122405064245:android:255a7033a7526f18086b7c",
+        "android_client_info": {
+          "package_name": "com.example.stockmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122405064245-toieobrrhbu8i6m2e01u0sc2dupbn4c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByrrH9wtSR5rrOqjEoE9UTIlfB7CiWlD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122405064245-toieobrrhbu8i6m2e01u0sc2dupbn4c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122405064245:android:252e4619518c5383086b7c",
+        "android_client_info": {
+          "package_name": "com.socialcodia.stockmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122405064245-toieobrrhbu8i6m2e01u0sc2dupbn4c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByrrH9wtSR5rrOqjEoE9UTIlfB7CiWlD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122405064245-toieobrrhbu8i6m2e01u0sc2dupbn4c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122405064245:android:d4d9470ec48689c7086b7c",
+        "android_client_info": {
+          "package_name": "com.stockmanagementsystem.managestock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122405064245-toieobrrhbu8i6m2e01u0sc2dupbn4c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByrrH9wtSR5rrOqjEoE9UTIlfB7CiWlD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122405064245-toieobrrhbu8i6m2e01u0sc2dupbn4c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

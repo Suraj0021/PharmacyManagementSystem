@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/dialog_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue2"
+        android:fontFamily="@font/francois_one"
+        android:textSize="18dp"
+        android:text="Edit Medicine"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/medicine_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_titles"
+        android:layout_marginTop="16dp"
+        android:hint="Medicine Name"
+        android:textColor="@color/black"
+        android:fontFamily="@font/francois_one"
+        android:visibility="gone"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medicine_name"
+        android:layout_marginTop="16dp"
+        android:hint="Company Name"
+        android:textColor="@color/black"
+        android:fontFamily="@font/francois_one"
+        android:textSize="18dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/manufacture_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_name"
+        android:layout_marginTop="16dp"
+        android:hint="Manufacture Date (YYYY-MM-DD)"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:fontFamily="@font/francois_one"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/expire_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manufacture_date"
+        android:layout_marginTop="16dp"
+        android:hint="Expire Date (YYYY-MM-DD)"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:fontFamily="@font/francois_one"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expire_date"
+        android:layout_marginTop="16dp"
+        android:hint="Quantity"
+        android:textColor="@color/black"
+        android:fontFamily="@font/francois_one"
+        android:textSize="18dp"
+        android:drawableRight="@drawable/baseline_question_mark_24" />
+
+    <EditText
+        android:id="@+id/edit_text_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_quantity"
+        android:layout_marginTop="12dp"
+        android:hint="Price"
+        android:textColor="@color/black"
+        android:fontFamily="@font/francois_one"
+        android:textSize="18dp"
+        android:drawableRight="@drawable/baseline_currency_rupee_24"/>
+
+    <LinearLayout
+        android:id="@+id/dialog_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_price"
+        android:layout_marginTop="24dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+
+    </LinearLayout>
+
+</RelativeLayout>

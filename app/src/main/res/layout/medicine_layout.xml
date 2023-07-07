@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/white"
+    android:background="@color/white">
+
+        <LinearLayout
+            android:background="@drawable/border1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_weight="1.1"
+                android:id="@+id/tv_medicine_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:fontFamily="@font/francois_one"
+                android:textStyle="bold"
+                android:gravity="left|center"/>
+
+
+            <TextView
+                android:layout_weight="1.8"
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:padding="5dp"
+                android:fontFamily="@font/francois_one"
+                android:textStyle="bold"
+                android:gravity="left|center"/>
+          <TextView
+              android:visibility="gone"
+                android:id="@+id/tv_manufacturer_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/francois_one"/>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_manufacture_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/francois_one"/>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_expire_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/francois_one"/>
+
+
+                <ImageView
+                    android:layout_weight="2.2"
+                    android:id="@+id/img_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/baseline_edit_24"
+                    android:scaleType="fitXY"
+                    android:layout_margin="2dp"
+                    android:background="@color/blue2" />
+                <ImageView
+                    android:layout_weight="2.2"
+                    android:id="@+id/img_delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/baseline_delete_forever_24"
+                    android:scaleType="fitXY"
+                    android:layout_margin="2dp"
+                    android:background="@color/red"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
